@@ -453,5 +453,13 @@ font-weight: 400;
 .price .services_list li{
 		padding-left: 15px;
 }
-
+.reviews .reviews_more {
+color: #2a545a;
+font-family: Calibri;
+font-size: 30px;
+font-weight: 400;
+text-align: center;
+margin-top: 3%;
+margin-bottom: 3%;
+}
 
