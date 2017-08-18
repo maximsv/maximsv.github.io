@@ -92,11 +92,11 @@ header{
 .main-mnu li a{
 	display: block;
 	font-size: empx);
-	color: #f2f5c4;
-	font-family: "Open Sans";
-	font-weight: 400;
-	line-height: 2;
-	padding: 10px 8px 4px;
+color: #f2f5c4;
+font-family: "Open Sans";
+font-weight: 400;
+line-height: 2;
+padding: 10px 8px 4px;
 -webkit-transition: all .3s ease;
 -moz-transition: all .3s ease;
 -o-transition: all .3s ease;
@@ -105,7 +105,7 @@ transition: all .3s ease;
 }
 
 .main-mnu li.activ a{
-		color: #fff;	
+	color: #fff;	
 	text-decoration: none;
 	border-bottom: 1px dashed #fff;
 }
@@ -116,30 +116,32 @@ transition: all .3s ease;
 }
 
 .d3 {
-	background-color: #e6e6e6;
+	background: transparent;
 	box-sizing:border-box;
-	padding-top: 1px;
-	padding-bottom: 4px;
 	position: relative;
 	border-radius: 13px;
+	
 }
 
-.d3 input, .d3 button {
+.d3 button {
 	border: none;
-	outline: none;
+	outline: none;	
 	background: transparent;
 
 }
-.d3 input {
+.d3 input {	
+	background-color: #e6e6e6;
+	border: 2px solid #e6e6e6;
+	outline: none;
 	position: relative;
 	width: 100%;
 	height: 30px;
 	padding-left: 10px;
-	background-color:transparent;
 	color: #c6c1c1;
 	font-family: RobotoRegular;
 	font-size: 21x;
 	font-weight: 400;
+	border-radius: 13px;
 	z-index: 5;	 
 	transition: all 0.5s ease 0s;
 }
@@ -149,7 +151,7 @@ transition: all .3s ease;
 	width: 42px;
 	position: absolute;
 	right: 0;
-	top:0;
+	top:-2px;
 	cursor: pointer;
 	z-index: 10;
 
@@ -162,9 +164,24 @@ transition: all .3s ease;
 }
 .d3 input:focus {
 	-webkit-box-shadow: 4px 6px 8px -2px rgba(0,0,0,0.3) inset;
-box-shadow: 4px 6px 8px -2px rgba(0,0,0,0.3) inset;
+	box-shadow: 4px 6px 8px -2px rgba(0,0,0,0.3) inset;
 	background-color: #e6e6e6;
 	border-radius: 13px;
 }
+.main-slogan{
+	text-align: center;
 
-   
+}
+.main-slogan h1{
+	color: #f7f9d9;
+font-family: RobotoRegular;
+font-size: 46px;
+font-weight: 400;
+}
+.main-slogan p{
+color: #f9f9f6;
+font-family: RobotoRegular;
+font-size: 16px;
+font-weight: 400;
+}
+
