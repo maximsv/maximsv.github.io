@@ -174,14 +174,75 @@ transition: all .3s ease;
 }
 .main-slogan h1{
 	color: #f7f9d9;
-font-family: RobotoRegular;
-font-size: 46px;
-font-weight: 400;
+	font-family:'Open Sans', sans-serif;
+	font-size: 44px;
+	font-weight: 400;
 }
 .main-slogan p{
-color: #f9f9f6;
-font-family: RobotoRegular;
-font-size: 16px;
-font-weight: 400;
+	color: #f9f9f6;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 }
+/*Конец header*/
+/*Начало оформления контент*/
+/*aside*/
+.content{
+	padding-top: 10px;
+}
+.left-menu{
+	
+	padding: 0;
+	margin-left: -15px;
+}
+aside h2{
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 0 0 5px 0;
+	background-color: #3a5802;
+	color: #f3f5d5;
+	font-weight: 700;
+	font: normal 28px 'Open Sans', serif;
+	text-indent: 3px;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	letter-spacing: 3px;
+	white-space: nowrap;
+	word-spacing: 4px;
+	cursor: pointer;
 
+}
+aside{
+}
+.menu-top{
+background-color:#cbdc95;
+	-webkit-box-shadow: -2px 2px 7px 1px  rgba(0,0,0,0.5);
+box-shadow: -2px 2px 7px 1px  rgba(0,0,0,0.5);
+}
+.aside_menu{
+	padding: 5px 0 5px 0;
+	text-align: center;
+	
+
+}
+.aside_menu li{
+border-bottom: 2px solid #3a5702;
+}
+.aside_menu li:last-child{
+	border-bottom: none;
+}
+.aside_menu li a{
+	display: block;
+	padding: 7px 7px;
+	
+	color: #2e4604;
+	font-family: 'Open Sans', serif;font-size: 16px;
+	font-weight: 400;
+	transition: all .5s ease;
+}
+.aside_menu li a:hover{
+	text-decoration: none;
+	background-color:#809a4d;
+	color: #f5f5f4;
+}

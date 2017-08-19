@@ -6,4 +6,17 @@
 			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+	/*font-family: "robotobold";
+	src: url("../fonts/RobotoRegular/robotobold.eot");
+src: url("../fonts/RobotoRegular/robotobold.eot?#iefix") format("embedded-opentype"),
+src: url("../fonts/RobotoRegular/robotobold.ttf");
+src: url("../fonts/RobotoRegular/robotobold.woff") format("woff");
+
+	font-family: 'Fjalla One', sans-serif;
+	src: url("../fonts/Fjalla_One/FjallaOne-Regular.eot");
+	src: url("../fonts/Fjalla_One/FjallaOne-Regular.ttf");
+	src: url("../fonts/Fjalla_One/FjallaOne-Regular.fjallaone-regular.woff");
+	font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
 }
+
