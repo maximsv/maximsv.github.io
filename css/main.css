@@ -358,6 +358,9 @@ margin-left: 20px;
 max-width: 65%;
 
 }
+.title{
+	border-right: 1px solid #f2f5c4;
+}
 .bottom .title p{
 	margin-bottom: 0;
 	text-align:left;
@@ -367,7 +370,7 @@ color: #e1ec3b;
 font-family: "Open Sans", serif;
 font-size: 29px;
 font-weight: 400;
-border-right: 1px solid #f2f5c4;
+
 }
 .footer-telef p{
 	display:block;

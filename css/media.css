@@ -11,6 +11,10 @@ padding: 10px 4px 4px;
 	width: 100%;
 
 }
+.title, .logo-bottom, .footer-telef{
+	border: none;
+}
+
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -45,7 +49,8 @@ padding: 10px 4px 4px;
 }
 .main-mnu li a:hover{
 border: none;
-background: #24431F;
+background: #f2f5c4;
+color: #24431F;
 }
 .aside_menu li a{
 	
@@ -63,6 +68,20 @@ font-size: 20px;
     padding: 10px 0;
     width: 51%;
   }
+  .logo-bottom{
+	margin:0 auto;
+}
+.logo-bottom img{
+	display: block;
+	margin:0 auto;
+max-width: 65%;
+}
+.bottom .title p{
+	text-align: center;
+}
+.copyright{
+	text-align: center;
+}
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
