@@ -14,13 +14,18 @@ padding: 10px 4px 4px;
 .title, .logo-bottom, .footer-telef{
 	border: none;
 }
+.media-body .btn{
+	width: 30%;
+	font-size: 14px;
+	padding: 3px;
+margin: 0 auto;
+}
 
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.main{
 	width: 100%;
-
 }
 .navbar-form{
 }
@@ -56,6 +61,10 @@ color: #24431F;
 	
 font-size: 20px;
 }
+ img .media-object{
+width: 250px;
+height: auto;
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -81,6 +90,17 @@ max-width: 65%;
 }
 .copyright{
 	text-align: center;
+}
+.media-object{
+	display: block;
+width: 200px;
+height: auto;
+}
+.media-body .btn{
+	width: 45%;
+	font-size: 14px;
+	padding: 3px;
+margin: 0 auto;
 }
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -113,6 +133,10 @@ max-width: 65%;
     padding: 10px 0;
     width: 51%;
   }
+  .media-object{
+	display: none;
+
+}
 }
 
 /* Custom, iPhone Retina */

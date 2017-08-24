@@ -60,7 +60,7 @@ body {
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: "RobotoRegular", sans-serif;
+font-family: "Open Sans", serif;
 	font-size: 1.5em;
 	overflow-x: hidden;
 	background-color: #F8FAE1;
@@ -462,7 +462,10 @@ font-weight: 700;
 	padding-bottom: 25px;
 	border-bottom: 2px solid #3a5802;
 }
-
+ img .media-object{
+width: 100%;
+height: auto;
+}
 .media-body .btn{
 	width: 25%;
 	font-size: 14px;
