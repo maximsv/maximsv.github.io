@@ -292,12 +292,18 @@ font-weight: 400;
 .soc-icons{
 	float: right;
 	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 30px;
+	
+}
+.soc-icons .fa-facebook-official{
+	color: #1B492D;
 }
 .soc-icons img{
 	position: relative;
 	top: -3px;
-	width: 26px;
-	height: auto;
+/*	width: 100%;
+	height: auto;*/
 }
 .sprout-decor img{
 	width: 100%;
@@ -372,7 +378,7 @@ text-align: center;
 footer.bottom{
 	width: 100%;
 	height: auto;
-	background-color:#105b13;
+	background-color:#162001;
 }
 .logo-bottom{
 	display: block;
@@ -382,18 +388,17 @@ footer.bottom{
 .logo-bottom img{
 	display: block;
 	margin:0 auto;
-margin-left: 20px;
-max-width: 65%;
-opacity: .5;
+max-width: 89%;
+
 
 }
 .title{
 	border-right: 1px solid #f2f5c4;
+	padding: 15px 0  0 20px;
+
 }
 .bottom .title p{
-	margin-bottom: 0;
-	text-align:left;
-padding: 12px 0px 14px 17px;
+	text-align:center;
 	line-height: 1.3em;
 color: #e1ec3b;
 font-family: "Open Sans", serif;
@@ -407,7 +412,7 @@ font-weight: 400;
 }
 .footer-telef{
 	text-align: center;
-	padding: 8px 15px 4px 10px;
+	padding:  8px 17px 4px 0px;
 color: #f9faf7;
 font-family: "Open Sans", serif;
 font-size: 16px;
