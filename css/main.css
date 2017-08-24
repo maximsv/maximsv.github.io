@@ -445,4 +445,27 @@ font-weight: 400;
 }
 /*style for articles*/
 
+.content-mnu-articles .media-body{
+	
+}
+.content-mnu-articles .media-body .media-heading{
+text-align: center;
+padding: 10px 0;
+color: #233404;
+font-family: "Open Sans", serif;
+font-size: 20px;
+font-weight: 700;
+}
+.content-mnu-articles .media{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #3a5802;
+}
 
+.media-body .btn{
+	width: 25%;
+	font-size: 14px;
+	padding: 3px;
+	float: right;
+}
