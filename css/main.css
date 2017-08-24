@@ -221,7 +221,7 @@ aside h2{
 	text-align: center;
 	padding: 10px;
 	margin: 0 0 5px 0;
-	background-color: #3a5802;
+	background-color: #162001;
 	color: #f3f5d5;
 	font-weight: 700;
 	font: normal 28px 'Open Sans', serif;
@@ -237,7 +237,7 @@ aside h2{
 aside{
 }
 .menu{
-	background-color:#cbdc95;
+	background-color:#ECF0DC;
 
 }
 .aside_menu{
@@ -259,11 +259,11 @@ aside{
 	color: #2e4604;
 	font-family: 'Open Sans', serif;font-size: 16px;
 	font-weight: 400;
-	transition: all .5s ease;
+	transition: all .3s ease;
 }
 .aside_menu li a:hover{
 	text-decoration: none;
-	background-color:#809a4d;
+	background-color:#2a3c03;
 	color: #f5f5f4;
 }
 /*end left-menu*/
@@ -329,15 +329,17 @@ margin-right: 10px;
 	width: 80%;
 	margin: 0 auto;
 	padding: 5px 10px;
-	background-color: #7F994C;
+	background-color: #637e2e;
+	border-bottom: 4px solid #415418;
 color: #f9faf0;
 line-height: 22px;
 transition: all .5s ease;
 }
 .btn:hover{
-	color: #3a5802;
+	color: #f9faf0;
 box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.35);
-background-color: #cbdc95;
+background-color: #89ae3f;
+border-bottom: 4px solid  #89ae3f;
 }
 .thumbnail{
 	transition: all .5s ease;
@@ -437,6 +439,9 @@ font-weight: 400;
 .marka{
 	margin-top: 2px;
 	color: #DBDEAC;
+}
+.copyright a{
+	text-decoration: none;
 }
 /*style for articles*/
 
