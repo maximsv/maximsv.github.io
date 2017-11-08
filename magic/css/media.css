@@ -1,0 +1,249 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.card {
+       margin: 10px 20px;    
+  }
+.flat-logo a {
+	margin: 29px 60px 0;
+
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	margin-left: 7%;
+}
+.phon ul li::after {
+	position: absolute;
+	content: "";
+	background-image: url("../img/phone_block.png");
+	display: block;
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	top: -2px;
+	left: 71px;
+}
+.hovergallery img{
+width: 100%;
+height: 100%;
+}
+	.nav-header .navbar-inverse {
+	padding-left: 2%;
+}
+.navbar-inverse .navbar-nav > li > a {
+	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.email {
+	padding-bottom: 25px; 
+	margin-top: 36px;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+		.phon ul li::after {
+	position: absolute;
+	content: "";
+	background-image: url("../img/phone_block.png");
+	display: block;
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	top: -2px;
+	left: 0px;
+     
+}
+.hovergallery img{
+width: 100%;
+height: 100%;
+}
+.hovergallery img:hover{
+  -webkit-transform:scale(1); /*Webkit: увеличиваем размер до 1.2x*/
+  -moz-transform:scale(1); /*Mozilla: масштабирование*/
+  -o-transform:scale(1); /*Opera: масштабирование*/
+  /*box-shadow:0px 0px 5px gray; /*CSS3 тени: 30px размытая тень вокруг всего изображения*/
+ /* -webkit-box-shadow:0px 0px 5px gray; /*Webkit: тени*/
+/*  -moz-box-shadow:0px 0px 5px gray;*/ /*Mozilla: тени*/
+  opacity: 1;z-index:4;
+} 
+.phon ul li::after {
+	left: 54px;
+}
+@media only screen and (max-width : 724px) {
+		.nav-header .navbar-inverse {
+	padding-left: 0;
+}
+		.phon{
+		margin-top: 5px;
+	}
+	.main-exhibition h3:after{
+	
+      top: 90px;
+     
+}
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+@media only screen and (max-width : 685px){
+	.main-exhibition h3:after{
+	
+      top: 105px;     
+}
+.phon ul li::after {
+	left: 30px;
+}
+.phon {
+	padding-left: 0px;
+}
+.flat-logo a {
+	margin: 29px 20px 0;
+
+}
+	.main-information .container .section-head h2::after {
+
+      top: 70px;
+      left: 50%;
+
+    }
+}
+@media only screen and (max-width : 530px){
+		.main-exhibition h3:after{
+	
+      top: 120px;     
+}
+.phon ul li::after {
+	left: 15px;
+}
+.email::after {
+	left: 12px;
+}
+.email {
+	margin: 36px 0 0 0;
+
+}
+	.main-information .container .section-head h3::after{
+		top: 65px;
+} 
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.phon ul li::after {
+	left: 5px;
+}
+	.flat-logo a {
+		margin: 29px 0px 0;
+	}
+	.email::after {
+		left: -7px;
+	}
+.email {
+
+	padding-left: 20px;
+	margin: 35px 0 0;
+}
+.main-information .container .section-head h2::after{
+ display: none;
+    width: 350px;
+}
+@media only screen and (max-width : 400px) {
+		.main-exhibition h3:after{
+	
+      top: 140px;     
+}
+.main-information .container .section-head h3::after{
+	display: none;
+}
+.phon ul li::after {
+	left: -3px;
+}
+	.email::after {
+		left: -7px;
+	}
+.email {
+
+	padding-left: 20px;
+	margin: 35px 0 0;
+}
+@media only screen and (max-width : 375px) {
+		.view {
+width: 100%;
+   
+}	
+.phon ul li::after {
+	left: -12px;
+}
+	.email::after {
+		left: -30px;
+	}
+.email {
+
+	padding-left: 0px;
+	margin: 35px 0 0;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+		.main-exhibition h3:after{	
+      top:160px;     
+}
+.phon ul li::after {
+	left: -18px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
