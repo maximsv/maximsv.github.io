@@ -58,6 +58,7 @@ body {
 	line-height: 1.6;
 	font-family: "RobotoRegular", sans-serif;
 	overflow-x: hidden;
+	background-color: #272822;
 }
 
 .hidden {
@@ -67,10 +68,7 @@ body {
 .header {
 	position: relative;
 	padding-top: 1px;
-	background-repeat: no-repeat;
-	background-image: cover;
-	background-position: center top;
-	height: 558px;
+
 	width: 100%;
 	overflow: hidden;
 }
@@ -82,7 +80,7 @@ body {
 	top: 0;
 	left: 0;
 	background-color: #272822;
-	opacity:.7;
+	opacity: .5;
 	overflow: hidden;
 
 }
@@ -93,7 +91,7 @@ body {
 	margin-top: 16%;
 }
 .slogan {
-	margin: 0 auto 30px;
+	margin: 0 auto 60px;
 	margin-left: 27%;
 	font-size: 45px;
 	font-weight: bold;
@@ -113,9 +111,8 @@ body {
 	
 	display: block;
 	margin: 0 auto;
-	width: 270px;
-	font-size: 18px;
-	font-weight: bold;
+	width: 240px;
+	font-size: 20px;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: 1.33;
@@ -123,21 +120,42 @@ body {
 	letter-spacing: normal;
 	color: #fff;
 }
+.header-top{
+	padding-right: 0px;
+padding-left: 0px;
+margin-right: auto;
+margin-left: auto;
+	height: 555px;
+		background-repeat: no-repeat;
+	background-image: cover;
+	background-position: center top;
+}
 
 .center_slogan a.btn:hover{
 	text-decoration: none;
 	color:#FFCD73;
 }
+.header .btn-primary{
+	background-color:transparent;
+	border-color:#FFCD73;
+	transition: all .3s ease;
+}
 .btn {
 	padding: 10px 20px;
-	font-size: 18px;
 	line-height: 1.4;
 	-ms-touch-action: manipulation;
 	touch-action: manipulation;
-	border: 1px solid #FFCD73;
-	border-radius: 6px;
+	border-radius: 4px;
 }
 .btn-primary {
 	color: #fff;
+}
+.menu{
+	background-color: #222222;
+}
+.menu .navbar.navbar-inverse{
+	border: none;
+	border-color:none;
+	margin-bottom:0;
 }
 
