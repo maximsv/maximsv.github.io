@@ -87,7 +87,7 @@ h4,
 h5,
 h6 {
 	margin-top: 0;
-	margin-bottom: .5rem;
+	margin-bottom: 0;
 }
 
 p {
@@ -187,7 +187,7 @@ section.header::before{
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	display: block;
+	text-align: center;
 }
 .button{
 	padding: 10px 15px;
@@ -197,6 +197,7 @@ section.header::before{
 	font-weight: 700;
 	line-height: 24px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 
