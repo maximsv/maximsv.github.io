@@ -45,3 +45,6 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+$(window).load(function() {
+ $(".active").css("color", "#CA5504");
+    });
