@@ -1,3 +1,4 @@
+var syntax        = 'scss'; // Syntax: sass or scss;
 var gulp = require('gulp'), // Подключаем Gulp
     sass = require('gulp-sass'); // Подключаем Sass пакет
 
