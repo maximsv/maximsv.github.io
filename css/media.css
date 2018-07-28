@@ -2,106 +2,19 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-.main-mnu li a{
-
-padding: 10px 4px 4px;
-}
-@media only screen and (max-width : 1100px) {
-	.main{
-	width: 100%;
 
 }
-.title, .logo-bottom, .footer-telef{
-	border: none;
-}
-.media-body .btn{
-	width: 30%;
-	font-size: 14px;
-	padding: 3px;
-margin: 0 auto;
-}
 
-}
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.main{
-	width: 100%;
-}
-.navbar-form{
-}
-.content-right{
-	padding-left: 0;
-}
-.d3 {
-	margin-top: 15px	
-}
-.main-mnu ul{
-	padding-left: 0;
-}
-.main-mnu li.activ a{
-	color: #fff;	
-	text-decoration: none;
-	border-bottom: none;
-}
-.main-mnu li{
-	display:block;
-	text-align: center;
-	font-size: 20px;
-	
-}
-.main-mnu ul{
-		background-color: transparent;
-}
-.main-mnu li a:hover{
-border: none;
-background: #f2f5c4;
-color: #24431F;
-}
-.aside_menu li a{
-	
-font-size: 20px;
-}
- img .media-object{
-width: 250px;
-height: auto;
+ .nav{
+ 	
+ }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.navbar-form{
-		margin-right:25px;
-		margin-left: 25px;
-	}
-		.list-button .buttons {  
-    margin: 0 23%;
-    padding: 10px 0;
-    width: 51%;
-  }
-  .logo-bottom{
-	margin:0 auto;
-}
-.logo-bottom img{
-	display: block;
-	margin:0 auto;
-max-width: 65%;
-}
-.bottom .title p{
-	text-align: center;
-}
-.copyright{
-	text-align: center;
-}
-.media-object{
-	display: block;
-width: 200px;
-height: auto;
-}
-.media-body .btn{
-	width: 45%;
-	font-size: 14px;
-	padding: 3px;
-margin: 0 auto;
-}
+	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -128,24 +41,11 @@ margin: 0 auto;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-		.list-button .buttons {  
-    margin: 0 23%;
-    padding: 10px 0;
-    width: 51%;
-  }
-  .media-object{
-	display: none;
 
-}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-		.list-button .buttons {  
-    margin: 0 23%;
-    padding: 10px 0;
-    width: 51%;
-  }
 
 }
 
