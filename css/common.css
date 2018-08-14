@@ -194,7 +194,3 @@ section.header::before {
   -o-transition: all .4s ease;
   transition: all .4s ease;
 }
-
-.button:hover {
-  text-decoration: none;
-}

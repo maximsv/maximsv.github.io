@@ -49,6 +49,11 @@ html.js .loader_inner {
 	top: 50%;
 	position: absolute;
 }
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
 
 body {
 	font-family: sans-serif;
@@ -217,9 +222,32 @@ margin-bottom: 30px;
 	        transition: all .4s ease;
 }
 .button:hover{
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
+.about{
+	padding: 65px 30px;
+}
+.about h2{
+	font-family: RobotoRegular;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #566366;
+  margin-bottom: 45px;
+}
+.about p{
+	font-family: RobotoRegular;
+	font-size: 18px;
+  line-height: 1.67;
+  text-align: left;
+  color: #919191;
+}
+
+
 
 
 

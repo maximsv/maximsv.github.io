@@ -188,6 +188,7 @@ section.header::before {
   margin-bottom: 30px;
 }
 
+
 .button {
   padding: 10px 15px;
   color: #ffffff;
@@ -197,28 +198,9 @@ section.header::before {
   text-transform: uppercase;
   border: 1px solid white;
   border-radius: 5px;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  transition: all .4s ease;
-  &:hover {
-    text-decoration: none;
-  }
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
 }
-
-// nav {
-//   ul {
-//     margin: 0;
-//     padding: 0;
-//     list-style: none;
-//   }
-
-//   li { display: inline-block; }
-
-//   a {
-//     display: block;
-//     padding: 6px 12px;
-//     text-decoration: none;
-//   }
-// }
