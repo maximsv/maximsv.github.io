@@ -50,9 +50,9 @@ html.js .loader_inner {
 	position: absolute;
 }
 .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto
+	display: block;
+	max-width: 100%;
+	height: auto
 }
 
 body {
@@ -201,10 +201,10 @@ section.header::before{
 	text-transform: uppercase;
 	display: inline-block;
 	border-top:1px solid white;
-border-bottom: 1px solid white;
-padding-top: 10px;
-padding-bottom: 10px;
-margin-bottom: 30px;
+	border-bottom: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
 }
 .button{
 	padding: 10px 15px;
@@ -216,10 +216,10 @@ margin-bottom: 30px;
 	border:1px solid white;
 	border-radius: 5px;
 	-webkit-transition: all .4s ease;
-	   -moz-transition: all .4s ease;
-	    -ms-transition: all .4s ease;
-	     -o-transition: all .4s ease;
-	        transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
 }
 .button:hover{
 	text-decoration: none;	
@@ -229,30 +229,39 @@ margin-bottom: 30px;
 }
 .about h2{
 	font-family: RobotoRegular;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.8;
-  letter-spacing: normal;
-  text-align: left;
-  color: #566366;
-  margin-bottom: 45px;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 0.8;
+	letter-spacing: normal;
+	text-align: left;
+	color: #566366;
+	margin-bottom: 45px;
 }
 .about p{
 	font-family: RobotoRegular;
 	font-size: 18px;
-  line-height: 1.67;
-  text-align: left;
-  color: #919191;
+	line-height: 1.67;
+	text-align: left;
+	color: #919191;
 }
 .capabilities{
-	 background-color: #f2f2f1;
-	 padding-left: 0;
-}
-/*.overlay-img{
+	background-color: #f2f2f1;
 	padding-left: 0;
-}*/
+
+}
+.capabilities-text{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.capabilities-about h2{
+  color: #2ecc71;
+}
+.capabilities-about.fa-globe{
+	width: 30px;
+	height: auto;
+}
 
 
 
