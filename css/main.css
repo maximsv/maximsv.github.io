@@ -246,7 +246,13 @@ margin-bottom: 30px;
   text-align: left;
   color: #919191;
 }
-
+.capabilities{
+	 background-color: #f2f2f1;
+	 padding-left: 0;
+}
+/*.overlay-img{
+	padding-left: 0;
+}*/
 
 
 
