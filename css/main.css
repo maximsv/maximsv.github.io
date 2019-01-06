@@ -112,7 +112,7 @@ a:hover{
 	color: #CA5504;
 }
 .container-fluid {
-	max-width: 1200px;
+	width: 2100x;
 	padding: 0 20px
 }
 .top-menu{
@@ -249,20 +249,37 @@ section.header::before{
 .capabilities{
 	background-color: #f2f2f1;
 	padding-left: 0;
+		overflow: hidden;
 
 }
 .capabilities-text{
-	padding-top: 25px;
-	padding-bottom: 25px;
+margin-left: 45px;
+	padding-top: 60px;
+	padding-bottom: 15px;
+}
+.capabilities-text h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.capabilities-text .last_p{
+	padding-bottom: 50px;
+}
+.capabilities-about {
+	padding-right: 10px;
 }
 .capabilities-about h2{
-  color: #2ecc71;
+ padding-left: 55px;
 }
-.capabilities-about.fa-globe{
-	width: 30px;
-	height: auto;
+.capabilities-about p{
+	padding-left: 55px;
 }
-
+.fas{
+	position: absolute;
+	top: 10px;
+	font-size: 25px;
+	color:  #CA5504;
+}
 
 
 
