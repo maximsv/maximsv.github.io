@@ -179,9 +179,8 @@ section{
 	height: 600px;
 	background-size: cover;
 	background-position: center;
-
-
 }
+
 section.header::before{
 	content: '';
 	position: absolute;
@@ -225,6 +224,9 @@ section.header::before{
 .about{
 	padding: 65px 30px;
 }
+.container-fluid{
+	width: 1200px;
+}
 .about h2{
 	font-family: RobotoRegular;
 	font-size: 30px;
@@ -244,8 +246,11 @@ section.header::before{
 	text-align: left;
 	color: #919191;
 }
+.about_me{
+		background-color: #f2f2f1;
+}
 .capabilities{
-	background-color: #f2f2f1;
+
 	padding-left: 0;
 		overflow: hidden;
 
