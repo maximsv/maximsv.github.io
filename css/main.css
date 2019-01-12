@@ -56,7 +56,6 @@ html.js .loader_inner {
 }
 
 body {
-	font-family: sans-serif;
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
@@ -218,64 +217,88 @@ section.header::before{
 	text-decoration: none;	
 }
 .about{
-	padding: 65px 30px;
+	padding: 35px 15px;
 }
 
 .about h2{
-	font-family: RobotoRegular;
+	font-family: "RobotoRegular";
 	font-size: 30px;
-	font-weight: bold;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: 0.8;
 	letter-spacing: normal;
 	text-align: left;
-	color: #566366;
+	color: #000;
 	margin-bottom: 45px;
+	text-transform: uppercase;
 }
 .about p{
 	font-family: RobotoRegular;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.67;
 	text-align: left;
-	color: #919191;
+	color: #120E12;
 }
 .about_me{
-	  background-color: #f2f2f1;
+	  background-color: #E4E4E1;
 }
 .capabilities{
-	background-color: #f2f2f1;
 	padding-left: 0;
 		overflow: hidden;
 
 }
 .capabilities-text{
+	font-size: 16px;
 margin-left: 45px;
 	padding-top: 60px;
 	padding-bottom: 15px;
 }
 .capabilities-text h2{
+	font-family: "RobotoRegular";
+	font-size: 1.5em;
 	text-transform: uppercase;
-	font-weight: bold;
 	margin-bottom: 20px;
 }
 .capabilities-text .last_p{
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 .capabilities-about {
 	padding-right: 10px;
 }
 .capabilities-about h2{
- padding-left: 55px;
+ padding-left: 45px;
+}
+.capabilities-about h3{
+ padding-left: 35px;
+ 	font-family: "RobotoRegular";
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 .capabilities-about p{
-	padding-left: 55px;
+	padding-left: 35px;
 }
 .fas{
 	position: absolute;
-	top: 10px;
+	top: 2px;
 	font-size: 25px;
 	color:  #CA5504;
+}
+.skills{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.skills h2{
+	margin-bottom: 10px;
+	font-size: 1.6em;
+	text-transform: uppercase;
+
+}
+.skills-dev h3{
+	margin-bottom: 8px;
+}
+.skills-dev .progress{
+margin-bottom: 25px;
 }
 .progress-bar {
     background-color:#CA5504 !important;
