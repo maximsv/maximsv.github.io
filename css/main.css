@@ -299,8 +299,10 @@ margin-left: 45px;
 
 }
 .skills-dev h3{
+	text-transform: uppercase;
+	font-size: 1.3em;
 	text-align: center;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 }
 .skills-dev .progress{
 margin-bottom: 15px;
