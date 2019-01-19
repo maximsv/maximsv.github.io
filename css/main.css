@@ -119,6 +119,15 @@ a:hover{
 	position: relative;
 	padding-bottom: 10px;
 }
+.format{
+	background-color: #252E30;
+	margin-left: 30px;
+	width: 100%;
+	text-align: center;
+}
+.format li{
+	padding-right: 40px;
+}
 .wrapper-logo a{
 	display: inline-block;
 }
