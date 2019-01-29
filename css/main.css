@@ -375,7 +375,7 @@ margin-bottom: 15px;
 .work-experience .cart-hystory h2{
 	margin-bottom: 20px;
 }
-.cart-hystory h2{
+.cart-hystory-my h2{
 	position: relative;
 }
 .cart-hystory-in{
@@ -391,7 +391,7 @@ margin-bottom: 15px;
 	margin-bottom: 20px;
 color: #252e30;
 }
-.cart-hystory h2::after{
+.cart-hystory-my h2::after{
 		    position: absolute;
     content: '';
     height: 2px;
@@ -431,6 +431,10 @@ color: #252e30;
 }
 .left{
 	border-right: solid 2px #b1b1af;
+}
+.left, .right, .cart-hystory-my{
+  animation-duration: 2s;
+  animation-delay: .5s;
 }
 
 

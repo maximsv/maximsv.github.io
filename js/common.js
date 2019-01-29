@@ -48,4 +48,7 @@ $(window).load(function() {
 $(window).load(function() {
  $(".active").css("color", "#CA5504");
     });
-	$(".second.about h2, section-head h1.section-head p,  .section_4 h2, .section_9 h2, .hovergallery h1,p").animated("fadeInLeft");
+	$(".left").animated("fadeInLeft");
+		$(".right").animated("fadeInRight");
+$(".cart-hystory-my").animated("fadeInDown");
+
