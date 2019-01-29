@@ -48,7 +48,7 @@ $(window).load(function() {
 $(window).load(function() {
  $(".active").css("color", "#CA5504");
     });
-	$(".left").animated("fadeInLeft");
-		$(".right").animated("fadeInRight");
+	$(".left, .about-skills").animated("fadeInLeft");
+		$(".right, .skills-dev").animated("fadeInRight");
 $(".cart-hystory-my").animated("fadeInDown");
 

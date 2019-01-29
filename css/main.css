@@ -436,7 +436,11 @@ color: #252e30;
   animation-duration: 2s;
   animation-delay: .5s;
 }
-.about-skills h2{
+.about-skills{
+	  animation-duration: 2s;
+  animation-delay: .5s;
+}
+.skills-dev{
 	  animation-duration: 2s;
   animation-delay: .5s;
 }
