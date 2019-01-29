@@ -175,6 +175,24 @@ a:hover{
 	background-color: transparent;
 
 }
+.button {
+    padding: 10px 15px;
+    color: #ffffff;
+    font-family: RobotoRegular;
+    font-size: 18 px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 5px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.button:hover {
+    text-decoration: none;
+}
 section{
 	position: relative;
 }
@@ -207,24 +225,40 @@ section.header::before{
 	padding-bottom: 10px;
 	margin-bottom: 30px;
 }
-.button{
-	padding: 10px 15px;
-	color: #ffffff;
-	font-family: RobotoRegular;
-	font-size: 18 px;
-	line-height: 24px;
-	text-transform: uppercase;
-	border:1px solid white;
-	border-radius: 5px;
-	-webkit-transition: all .4s ease;
-	-moz-transition: all .4s ease;
-	-ms-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease;
+.buttons,
+.buttons:active,
+.buttons:focus,
+.buttons:hover {
+	cursor: pointer;
+    color: #111;
+    text-decoration: none
 }
-.button:hover{
-	text-decoration: none;	
+.buttons {
+	color: #e8e5e5;
+    display: inline-block;
+    border: none;
+    background-color: #C95409;
+    font-family: "RobotoRegular", Arial, sans-serif;
+    font-size: 1em;
+    padding: 5px 15px;
+    border-bottom: #B97200 3px solid;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
 }
+
+.buttons:hover {
+    background-color: #FFB338
+}
+.buttons{
+	text-decoration: none;
+}
+
+.buttons:active {
+    background-color: #DB8C0E
+}
+
 .about{
 	padding: 35px 15px;
 }
@@ -299,13 +333,29 @@ margin-left: 45px;
 }
 .about-skills{
 	margin-right: 40px;
+border-right: solid 2px #b1b1af;
 }
 .about-skills h2{
+	position: relative;
 	margin-top: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-size: 1.6em;
 	text-transform: uppercase;
-
+}
+.about-skills h2::after{
+		    position: absolute;
+    content: '';
+    height: 2px;
+    background-color:#ca55047a;
+    width: 265px;
+    display: block;
+    bottom: -7px;
+    left: 25%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
 }
 .skills-dev h3{
 	text-transform: uppercase;
@@ -319,6 +369,70 @@ margin-bottom: 15px;
 .progress-bar {
     background-color:#CA5504 !important;
 }
+.work-experience {
+	padding: 25px 0;
+}
+.work-experience .cart-hystory h2{
+	margin-bottom: 20px;
+}
+.cart-hystory h2{
+	position: relative;
+}
+.cart-hystory-in{
+	position: relative;
+	margin-bottom: 30px;
+}
+.cart-hystory .left,
+.cart-hystory .right {
+	margin-top: 25px;
+}
+.cart-hystory h3{
+	position: relative;
+	margin-bottom: 20px;
+color: #252e30;
+}
+.cart-hystory h2::after{
+		    position: absolute;
+    content: '';
+    height: 2px;
+    background-color:#ca55047a;
+    width: 265px;
+    display: block;
+    bottom: -13px;
+    left: 12%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+.cart-hystory h3::after {
+	    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: #ca55047a;
+    width: 265px;
+    display: block;
+    bottom: -13px;
+    left: 26%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+.time-date {
+	color: #848c8e;
+}
+.cart-in {
+	color: #C95409;
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+.left{
+	border-right: solid 2px #b1b1af;
+}
+
 
 
 
