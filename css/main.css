@@ -444,6 +444,29 @@ color: #252e30;
 	  animation-duration: 2s;
   animation-delay: .5s;
 }
+.portfolio-group h2{
+	text-align: center;
+	position:relative;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	color: #252e30;
+}
+.portfolio-group h2::after {
+	  position: absolute;
+    content: '';
+    height: 2px;
+    background-color: #ca55047a;
+    width: 200px;
+    display: block;
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+
 
 
 
