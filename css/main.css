@@ -466,6 +466,9 @@ color: #252e30;
     -webkit-border-radius: 10em;
     border-radius: 10em;
 }
+.card{
+	width: 36 rem;
+}
 
 
 
