@@ -46,9 +46,14 @@ $(window).load(function() {
 
 });
 $(window).load(function() {
- $(".active").css("color", "#CA5504");
-    });
+ $(".nav-link.active").css("color", "#000");
+		});
+var naving = $(".nav-link");
+naving.click(function() {
+	naving.addClass("active");
+});
 	$(".left, .about-skills").animated("fadeInLeft");
 		$(".right, .skills-dev").animated("fadeInRight");
-$(".cart-hystory-my").animated("fadeInDown");
+$(".cart-hystory-my .my-logo").animated("fadeInDown");
+$(".my-logo").animated("puls");
 
