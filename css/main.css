@@ -538,6 +538,36 @@ section.header::before{
 }
 .forms_dark {
 	background-color: #252e30;
+	padding-top: 20px;
+}
+.forms_dark h2{
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.8;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.forms_dark p{
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.67;
+	letter-spacing: normal;
+	text-align: left;
+	color: #919191;
+}
+.form-group label{
+color: #ffffff;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
 
 

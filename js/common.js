@@ -57,3 +57,5 @@ naving.click(function() {
 $(".cart-hystory-my .my-logo").animated("fadeInDown");
 $(".my-logo").animated("puls");
 
+
+
