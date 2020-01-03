@@ -511,6 +511,10 @@ section.header::before{
 	animation-duration: 2s;
 	animation-delay: .5s;
 }
+.portfolio-group{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .portfolio-group h2{
 	text-align: center;
 	position:relative;
@@ -537,8 +541,13 @@ section.header::before{
 	width: 36 rem;
 }
 .forms_dark {
+	height: 100%;
 	background-color: #252e30;
-	padding-top: 20px;
+
+}
+.form_contacts{
+		padding-top: 50px;
+	padding-bottom: 30px;
 }
 .forms_dark h2{
 	font-family: Roboto;
