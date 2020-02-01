@@ -36,7 +36,7 @@ $(function() {
 	};
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
-	
+
 });
 
 $(window).load(function() {
@@ -53,9 +53,10 @@ naving.click(function() {
 	naving.addClass("active");
 });
 	$(".left, .about-skills").animated("fadeInLeft");
+$(".align-items-start").animated("fadeInUp");
 		$(".right, .skills-dev").animated("fadeInRight");
 $(".cart-hystory-my .my-logo").animated("fadeInDown");
-$(".my-logo").animated("puls");
+$(".my-logo").animated("fadeInLeft");
 
 
 
