@@ -389,7 +389,7 @@ section.header::before{
     color: #120E12;
 }
 .grey{
-    background-color: #E4E4E1;
+    background-color: #BFBFBB;
 }
 .capabilities{
     padding-left: 0;
@@ -625,7 +625,7 @@ section.header::before{
     border-radius: 10em;
 }
 .card{
-    width: 36 rem;
+    width: 23rem;
 }
 .forms_dark {
 	background-color: #252e30;
