@@ -246,7 +246,7 @@ section{
 }
 .header{
     width: auto;
-    height: 600px;
+    height: 750px;
     background-size: cover;
     background-position: center;
 }
@@ -256,7 +256,7 @@ section.header::before{
     position: absolute;
     background-color: #000;
     width: 100%;
-    height: 600px;
+    height: 750px;
     opacity: .75;
 }
 .proffi{
