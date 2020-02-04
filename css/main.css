@@ -165,20 +165,24 @@ a:hover{
     line-height: 30px;
     text-transform: uppercase;
     padding: 0 15px;
+
 }
 .nav-item {
     position: relative;
 }
-.nav-item a:hover{
+
+.wrapper-nav .nav-item a:hover{
     text-decoration: none;
     color:#CA5504;
 }
+
 .nav-item .nav-link::before{
     font-family: Font Awesome\ 5 Free;
     position: absolute;
     left:-15px;
     opacity:0;
     z-index:3;
+    transition: all .9s ease;
 }
 .nav-item .nav-link.contact-link::before{
     font-weight:900;
@@ -220,7 +224,6 @@ a:hover{
     text-align: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #ffffff;
     background-color: transparent;
 }
 .button {
