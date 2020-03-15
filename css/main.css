@@ -177,7 +177,7 @@ a:hover{
 }
 
 .nav-item .nav-link::before{
-    font-family: Font Awesome\ 5 Free;
+    font-family: Font Awesome;
     position: absolute;
     left:-15px;
     opacity:0;
