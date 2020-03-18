@@ -319,8 +319,8 @@ section .information-text{
 
 }
 .card{
- transition: all .7s ease;
- border-radius: 23px;
+   transition: all .7s ease;
+   border-radius: 23px;
 }
 .card:hover{
     cursor: pointer;
@@ -366,6 +366,9 @@ section .information-text{
     text-align: center;
     font-size: 1.5em;
 }
+section.four{
+    padding-bottom: 4em;
+}
 
 .top-block{
     border-bottom: 2px solid #37B530;
@@ -378,8 +381,18 @@ footer{
     padding-top: 2em;
     padding-bottom: 2em;
 }
+.footer{
+    position: relative;
+}
+
 .logo-left-footer {
     position: relative;
+}
+.logos-footer img{
+    position: absolute;
+    top: -98px;
+    left: 42%;
+    height: 106px;
 }
 
 .logo-left-footer img {
@@ -400,8 +413,11 @@ footer{
     list-style: none;
     padding-left: 3px;
 }
+.logo-footer a{
+    text-decoration: none;
+}
 .logo-garden-footer {
-    font-size: 28px;
+    font-size: 24px;
     color: #e5d1d1;
     text-transform: uppercase;
     font-family: RalewayBold;
@@ -412,12 +428,12 @@ footer{
 .logo-maxpro-footer {
     font-family: RalewayRegular;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 18px;
     color: #c0edb5;
-    border: 2px solid;
+    border: 1px solid;
     border-color: #c0edb5;
     border-radius: 23px;
-    padding: 7px 7px;
+    padding: 4px 2px;
     text-align: center;
 
 }
@@ -432,7 +448,7 @@ footer{
     text-align: center;
 }
 .footer-contact ul{
-padding-left: 10px;
+    padding-left: 10px;
 }
 .footer-contact h3{
     text-align: center;
@@ -443,12 +459,21 @@ padding-left: 10px;
 }
 .footer-contacts{
     list-style: none;
+
 }
 .footer-contacts li span{
- color:#25fa5c;
+   color:#9FD195;
 }
 .footer-contacts .fas-footer{
-    color:#25fa5c;
+    color:#9FD195;
+}
+.mail a{
+text-decoration: none;
+padding-left: 1em;
+color:#fff;
+}
+.mail a:hover{
+    color: #92C689;
 }
 .top {
   height: 36px;
@@ -457,4 +482,17 @@ padding-left: 10px;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+.bottom-footer{
+    background-color: #000000;
+
+}
+.bottom-footer h4 a{
+       font-size: .6em;
+    color:#CAF8C8;
+    text-decoration: none;
+    opacity: .8;
+    text-align: center;
+    margin: 0 auto;
+
 }
