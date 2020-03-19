@@ -7,12 +7,47 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+.slogan::after {
+	border:none;
+}
+.logo-left-footer img {
 
+    left: 8em;
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+.logo-left-footer img {
+
+    left: 4em;
+}
+.footer-category h3 {
+
+    width: 100%;
+  }
+  .footer-contact h3 {
+    width: 100%;
+}
+.footer-contact ul {
+    text-align: center;
+}
+.footer-category ol {
+ text-align: center;
+}
+.mail{
+	text-align: center;
+}
+.carts{
+text-align: center;
+}
+.carts iframe{
+	width: 500px;
+}
+
+@media only screen and (max-width : 560px) {
+	.carts iframe{
+	width: 400px;
+}
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -39,7 +74,8 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+.carts {
+	display: none;
 }
 
 /* Custom, iPhone Retina */
