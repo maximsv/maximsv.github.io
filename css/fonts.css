@@ -8,20 +8,11 @@
 	font-weight: normal;
 }
 @font-face {
-    font-family: "RobotoCondensedLight";
-    src: url("../fonts/RobotoCondensedLight/RobotoCondensedLight.eot");
-    src: url("../fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"),
-             url("../fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"),
-             url("../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: RobotoCondensedBold;
+    font-family: roboto-g;
     font-weight: 800;
     font-style: normal;
-    src: url(../fonts/RobotoCondensedBold/RobotoCondensedBold.eot);
-    src: url(../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoCondensedBold/RobotoCondensedBold.woff) format("woff"), url(../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf) format("truetype");
+    src: url(../fonts/RobotoBlack/RobotoBlack.eot);
+    src: url(../fonts/RobotoBlack/RobotoBlack.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoBlack/RobotoBlack.woff) format("woff"), url(../fonts/RobotoBlack/RobotoBlack.ttf) format("truetype");
 }
 @font-face {
     font-family: roboto-g;
@@ -44,4 +35,3 @@
     src: url(../fonts/BaronBlack/BaronBlack.eot);
     src: url(../fonts/BaronBlack/BaronBlack.eot?#iefix) format("embedded-opentype"), url(../fonts/BaronBlack/BaronBlack.woff) format("woff"), url(../fonts/BaronBlack/BaronBlack.ttf) format("truetype");
 }
-
