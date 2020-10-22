@@ -8,11 +8,11 @@
 	font-weight: normal;
 }
 @font-face {
-    font-family: roboto-g;
+    font-family: RobotoCondensedRegular;
     font-weight: 800;
     font-style: normal;
-    src: url(../fonts/RobotoBlack/RobotoBlack.eot);
-    src: url(../fonts/RobotoBlack/RobotoBlack.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoBlack/RobotoBlack.woff) format("woff"), url(../fonts/RobotoBlack/RobotoBlack.ttf) format("truetype");
+    src: url(../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot);
+    src: url(../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff) format("woff"), url(../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf) format("truetype");
 }
 @font-face {
     font-family: roboto-g;
