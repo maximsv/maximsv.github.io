@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="765c707d-c5ca-4eeb-b062-53b5884d7829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/maximsv.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/coner_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/montains.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/montans1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/coner_bottoms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -58,7 +53,11 @@
       <workItem from="1604127395993" duration="5651000" />
       <workItem from="1604220811369" duration="1319000" />
       <workItem from="1604256137961" duration="3065000" />
-      <workItem from="1604407368847" duration="1913000" />
+      <workItem from="1604407368847" duration="2764000" />
+      <workItem from="1604486484028" duration="3235000" />
+      <workItem from="1604503090810" duration="23000" />
+      <workItem from="1604511191781" duration="3065000" />
+      <workItem from="1604561303295" duration="1231000" />
     </task>
     <servers />
   </component>
@@ -68,11 +67,21 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />

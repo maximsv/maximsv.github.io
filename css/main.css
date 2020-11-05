@@ -99,7 +99,7 @@ a:hover{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgba(48, 34, 23, 0.85);
+	background-color: rgba(48, 34, 23, 0.75);
 }
 .header {
 
@@ -240,10 +240,12 @@ hr{
 	content: '';
 	position: absolute;
 	top: 50%;
-	left: -11px;
-	background-image: url(../img/coner_bottom.png);
-	width: 23px;
-	height: 32px;
+	left: -9px;
+	background-image: url(../img/coner_bottoms.png);
+	background-size: cover;
+	background-position: center;
+	width: 18px;
+	height: 25px;
 }
 .right{
 	position: absolute;
@@ -257,11 +259,34 @@ hr{
 	content: '';
 	position: absolute;
 	top: 50%;
-	right: -11px;
-	background-image: url(../img/coner_bottom.png);
-	width: 23px;
-	height: 32px;
+	right: -9px;
+	background-image: url(../img/coner_bottoms.png);
+	width:18px;
+	height: 25px;
 }
+.services{
+	margin-top: 3em;
+}
+.services_container{
+	background-color: #302217;
+}
+.services_inner{
+	margin: 0 auto;
+	color: #F3D4B9;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2em;
+}
+.services_container h3 {
+font-family: Roboto Condensed;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: rgba(243, 212, 185, 1);
+
+}
+
 
 
 
