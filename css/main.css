@@ -2,6 +2,9 @@
 	color: #666;
 	opacity: 1;
 }
+*{
+	box-sizing: border-box;
+}
 *:-moz-placeholder {
 	color: #666;
 	opacity: 1;
@@ -181,10 +184,12 @@ a:hover{
 
 }
 .services_cards{
+	height: 420px;
 	background: rgba(36, 28, 22, 1);
 	padding: 2.3em 25px 1em;
 	border-left:4px solid #00AED1;
 	margin-bottom: 3em;
+	overflow: hidden;
 }
 .header_center_row{
 	display: flex;
@@ -317,6 +322,33 @@ color: rgba(243, 212, 185, 1);
 	background-color: #D47843;
 }
 .services_card_right{
+
+}
+.about_me_inner{
+	padding-top: 4em;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.about_info{
+	padding-left: 1em;
+}
+.about_info h2{
+	padding-bottom: .3em;
+	width: 55%;
+	color: rgba(243, 212, 185, 1);
+	background-color: rgba(48, 34, 23, 1);
+	border-bottom: 3px solid #D57843;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: left;
+	margin-bottom: 3em;
+}
+.about_info p{
+	text-align: left;
+	padding-right: 1em;
+	color: rgba(152, 119, 92, 1);
 
 }
 
