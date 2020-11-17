@@ -327,7 +327,7 @@ color: rgba(243, 212, 185, 1);
 .about_me_inner{
 	padding-top: 4em;
 	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .about_info{
 	padding-left: 1em;
@@ -349,8 +349,80 @@ color: rgba(243, 212, 185, 1);
 	text-align: left;
 	padding-right: 1em;
 	color: rgba(152, 119, 92, 1);
+}
+.about_me_info{
+	padding: 1.5em;
+	margin: 4.3em 1em 0 0;
+	background: rgba(36, 28, 22, 1);
+	border: 2px solid #00AED1;
+	box-sizing: border-box;
+	color: rgba(243, 212, 185, 1);
+}
+.about_me_info ul{
+	padding-inline-start: 10px;
+}
+.about_me_info ul li{
+	list-style: none;
+	padding-bottom: 1.5em;
+}
+.about_me_info ul li:last-child{
+	padding-bottom: 0;
+}
+.about_me_info span{
+	color: rgba(152, 119, 92, 1);
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: left;
+	padding-right: 1.4em;
+}
+.img_border{
+	position: relative;
+}
+.img_border:after{
+position: absolute;
+	content: '';
+	left: -13px;
+	bottom: 116px;
+	width: 13px;
+	height: 80%;
+	background-color: rgba(209, 97, 0, 1);
+}
+.img_corner {
+	position: absolute;
+	content: '';
+	top: -6px;
+	right: -12px;
+}
+.about_me_practics{
+	margin-top: 4em;
+	margin-bottom: 4em;
+	color:#ebe0d6 ;
+}
+.about_me_practics h2{
+	text-align: center;
+}
+.progress .bg-brown{
+	background-color:#996D4C;
+}
+.info_bar {
+	margin-top: 2em;
+}
+.info_bar h4{
+	padding-bottom: .5em;
+}
+.coner_bottom {
+	margin: 2em auto;
+	width: 70px;
+	height: 30px;
+	background-image: url(../img/coner_bottoms.png);
+	background-repeat: no-repeat;
 
 }
+
+
+
 
 
 
