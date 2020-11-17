@@ -400,12 +400,29 @@ position: absolute;
 	margin-bottom: 4em;
 	color:#ebe0d6 ;
 }
-.about_me_practics h2{
+.about_skills{
+	position: relative;
+	display: block;
+	margin: 0 auto;
 	text-align: center;
+	width: 19%;
+	padding-bottom: .3em;
+	/* border-bottom: 3px solid #D57843; */
+}
+
+.about_me_practics h2:after {
+	  position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 15px;
+    width: 135px;
+    height: 2px;
+    background-color: #D47843;
 }
 .progress .bg-brown{
 	background-color:#996D4C;
 }
+
 .info_bar {
 	margin-top: 2em;
 }
@@ -419,6 +436,10 @@ position: absolute;
 	background-image: url(../img/coner_bottoms.png);
 	background-repeat: no-repeat;
 
+}
+.Benefits {
+	color: rgba(243, 212, 185, 1);
+	margin-top: 3em;
 }
 
 
