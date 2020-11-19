@@ -1,23 +1,24 @@
-$(function() {
+$(function () {
+$('.carousel_slide').slick({});
 
 	//SVG Fallback
-	if(!Modernizr.svg) {
-		$("img[src*='svg']").attr("src", function() {
+	if (!Modernizr.svg) {
+		$("img[src*='svg']").attr("src", function () {
 			return $(this).attr("src").replace(".svg", ".png");
 		});
 	};
 
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
-	$("form").submit(function() { //Change
+	$("form").submit(function () { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
+			url: "mail.php", //Change 
 			data: th.serialize()
-		}).done(function() {
+		}).done(function () {
 			alert("Thank you!");
-			setTimeout(function() {
+			setTimeout(function () {
 				// Done Functions
 				th.trigger("reset");
 			}, 1000);
@@ -28,35 +29,13 @@ $(function() {
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
-		if($("html").hasClass("chrome")) {
+		if ($("html").hasClass("chrome")) {
 			$.smoothScroll();
 		}
-	} catch(err) {
+	} catch (err) {
 
 	};
 
-	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
-
 });
-
-$(window).load(function() {
-
-	$(".loader_inner").fadeOut();
-	$(".loader").delay(100).fadeOut("slow");
-
-});
-$(window).load(function() {
- $(".nav-link.active").css("color", "#000");
-		});
-var naving = $(".nav-link");
-naving.click(function() {
-	naving.addClass("active");
-});
-	$(".left, .about-skills").animated("fadeInLeft");
-$(".align-items-start").animated("fadeInUp");
-		$(".right, .skills-dev").animated("fadeInRight");
-$(".cart-hystory-my .my-logo").animated("fadeInDown");
-$(".my-logo").animated("fadeInLeft");
-
 
 

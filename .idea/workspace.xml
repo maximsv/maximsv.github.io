@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765c707d-c5ca-4eeb-b062-53b5884d7829" name="Default Changelist" comment="services start">
-      <change afterPath="$PROJECT_DIR$/img/border-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/coner-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cod.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/design.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pencsil.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -108,6 +109,11 @@
       <workItem from="1605166595324" duration="1206000" />
       <workItem from="1605513020492" duration="9139000" />
       <workItem from="1605610316056" duration="359000" />
+      <workItem from="1605636357318" duration="463000" />
+      <workItem from="1605639084215" duration="42000" />
+      <workItem from="1605639144343" duration="256000" />
+      <workItem from="1605639435088" duration="268000" />
+      <workItem from="1605689779783" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="services start">
       <created>1604563869397</created>
@@ -154,22 +160,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="services start" />
     <option name="LAST_COMMIT_MESSAGE" value="services start" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="652" y="0" width="383" height="886" key="#HTML" timestamp="1605513107148">
-      <screen x="0" y="0" width="1646" height="886" />
-    </state>
-    <state x="652" y="0" width="383" height="886" key="#HTML/0.0.1646.886@0.0.1646.886" timestamp="1605513107148" />
-    <state x="761" y="27" key="#HTML/0.0.1920.1040@0.0.1920.1040" timestamp="1605035931174" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605165815477">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1605165815477" />
-    <state x="580" y="135" key="SettingsEditor" timestamp="1605610387156">
-      <screen x="0" y="0" width="1646" height="886" />
-    </state>
-    <state x="580" y="135" key="SettingsEditor/0.0.1646.886@0.0.1646.886" timestamp="1605610387156" />
-    <state x="676" y="158" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1605166573491" />
-    <state x="853" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605035867283" />
   </component>
 </project>
