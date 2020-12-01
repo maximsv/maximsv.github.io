@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765c707d-c5ca-4eeb-b062-53b5884d7829" name="Default Changelist" comment="services start">
-      <change afterPath="$PROJECT_DIR$/img/cod.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/design.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pencsil.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owl/assets/owl.carousel.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/owl/owl.carousel.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Gulp-start" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,6 +113,10 @@
       <workItem from="1605639144343" duration="256000" />
       <workItem from="1605639435088" duration="268000" />
       <workItem from="1605689779783" duration="1067000" />
+      <workItem from="1606075231208" duration="57000" />
+      <workItem from="1606161831814" duration="23000" />
+      <workItem from="1606208537791" duration="170000" />
+      <workItem from="1606208780829" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="services start">
       <created>1604563869397</created>

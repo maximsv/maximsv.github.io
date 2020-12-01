@@ -1,6 +1,33 @@
 $(function () {
-$('.carousel_slide').slick({});
+	$('.carousel_slide_top').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		asNavFor: '.carousel_slide'
+	});
 
+	$('.carousel_slide').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.carousel_slide_top',
+		fade: true,
+		centerMode: true,
+		focusOnSelect: true
+	});
+
+
+	// $('.carousel_slide_top').slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 3,
+	// 	arrows: false,
+	// 	fade: true,
+	// 	asNavFor: '.slider-nav'
+	// });
+	// $('.carousel_slide').slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 3,
+	// 	asNavFor: '.carousel_slide_top',
+	// });
 	//SVG Fallback
 	if (!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function () {
