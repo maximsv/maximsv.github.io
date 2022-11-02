@@ -72,6 +72,20 @@ a {
 a:hover {
     color: #ca5504;
 }
+.visually-hidden { 
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  margin: -1px; 
+  padding: 0; 
+  overflow: hidden; 
+  font-size: 1px; 
+  white-space: nowrap; 
+  border: 0; 
+  clip: rect(0, 0, 0, 0); 
+  clip-path: inset(100%); 
+} 
+/*header*/
 .header_bg {
     position: relative;
     background-color: rgba(48, 34, 23, 0);
@@ -92,7 +106,19 @@ a:hover {
     position: relative;
 }
 .header_middle {
-    padding-top: 3em;
+    display: flex;
+     padding-top: 3em; 
+    border-top: solid 1px #2aabd2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #2aabd2;
+    align-content: center;
+    justify-content: center;
+
+
+
+    /*padding-top: 3em;*/
     border-top: solid 1px #2aabd2;
     width: 100%;
     height: 100%;
@@ -110,6 +136,7 @@ a:hover {
     margin-left: 3em;
 }
 .right_img {
+    position: relative;
     height: 100%;
     width: 60px;
 }
@@ -155,9 +182,6 @@ p {
     letter-spacing: 0.005em;
     text-align: left;
     color: #d16100;
-}
-.first {
-    padding-top: 2em;
 }
 .cards p {
     font-size: 14px;
@@ -216,6 +240,10 @@ hr {
     letter-spacing: 0.02em;
     color: #f3d4b9;
 }
+
+/*.visually-hidden{
+    display: none;
+}*/
 .first:after {
     position: absolute;
     content: "";
