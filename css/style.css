@@ -675,6 +675,11 @@ form label .selectize-dropdown .active {
 .text-center {
 	text-align: center;
 }
+.viber{
+	width: 90px;
+	height: 90px;
+}
+
 .button,
 .mouse-icon {
 	display: inline-block;
