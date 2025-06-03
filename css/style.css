@@ -268,10 +268,12 @@ hr {
 	left: -9px;
 	background-image: url(../img/coner_bottoms.png);
 	background-size: cover;
+	
 	background-position: center;
 	width: 18px;
 	height: 25px;
 } */
+ 
 .right {
 	position: absolute;
 	height: 85%;
