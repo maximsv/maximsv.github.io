@@ -91,7 +91,7 @@ a:hover {
 	background-color: rgba(48, 34, 23, 0);
 	background: center center/cover no-repeat;
 	width: 100%;
-	height: 80vh;
+	height: 87vh;
 }
 .header_bg::before {
 	content: "";
@@ -259,7 +259,7 @@ hr {
 	width: 1px;
 	background: #59cee3;
 	left: 30px;
-	top: 90px;
+	top: 60px;
 }
 /* .left:after {
 	content: "";
@@ -280,7 +280,7 @@ hr {
 	width: 1px;
 	background: #59cee3;
 	right: 30px;
-	top: 90px;
+	top: 60px;
 }
 /* .right:after {
 	content: "";
