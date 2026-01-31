@@ -1,532 +1,543 @@
 <!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6"
+lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7"
+lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8"
+lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru">
+<!--<![endif]-->
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	<title>Виробник органічних доломітових добрив </title>
-	<meta name="description" />
+	<title>Сайт разработчика</title>
+	<meta name="description" content="">
 
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-	<link rel="icon" href="images/favicon.png" />
-	<meta property="og:image" content="images/preview.jpg" />
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
-	<link rel="stylesheet" href="css/mains.css" />
-	<link rel="stylesheet" href="css/media.css" />
-
-	<!-- Подключаем jQuery -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- Подключаем слайдер Slick -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-		crossorigin="anonymous"></script>
-	<script src="js/slick.min.js" defer></script>
-	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<!-- Подключаем файл скриптов -->
-	<script src="js/commons.js" defer></script>
-
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-	<div class="header_top">
-
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-			<div class="container-xxl nav_wrapper">
-				<a href="index.html"><img src="images/Logo.svg" class="logo image" alt="" /></a>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-5 mb-lg-0">
-						<li class="nav-item">
-							<a href="index.html" class="items nav-link active" aria-current="page">Головна</a>
-						</li>
-						<li class="nav-item">
-							<a href="products.html" class="items nav-link">Продукція</a>
-						</li>
-						<li class="nav-item">
-							<a href="about.html" class="items nav-link">Про нас</a>
-						</li>
-						<li class="nav-item">
-							<a href="news.html" class="items nav-link">Новини</a>
-						</li>
-						<li class="nav-item">
-							<a href="contacts.html" class="items nav-link">Контакти</a>
-						</li>
-
-					</ul>
-					<a class="popup-modals" href="#test-modal">
-						<button class="button button_light">Зв'язатись</button>
+	<div class="container header_bg" style="background-image: url(img/montans2.jpg)">
+		<div class="header_bg_container">
+			<div class="row header_top">
+				<div class="offset-sm-1 col-md-1 col-5">
+					<img class="left_img" src="img/coner.png" alt="">
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="top_row_left">
+						<a href="index.html">
+							<img class="right_img" src="img/logo.png" alt="Логотип"><span class="visually-hidden">На головну</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8 top_row_right">
+					<a href="#skills">
+						Услуги
+					</a>
+					<a href="#about">
+						Обо мне
+					</a>
+					<a href="#portfolio">
+						Портфолио
+					</a>
+					<a href="#contacts">
+						Контакты
 					</a>
 				</div>
 			</div>
-		</nav>
-
-		<div class="container-xxl main-mnu_position">
 			<div class="row">
-				<div class="col-sm-12 ">
-					<a href="#" class="toggle-mnu"><span></span></a>
-					<nav class="main-mnu hidden-mnu">
-						<ul class="">
-							<li class="">
-								<a href="index.html" class="">Головна</a>
-							</li>
-							<li class="">
-								<a href="products.html" class="">Продукція</a>
-							</li>
-							<li class="">
-								<a href="about.html" class="">Про нас</a>
-							</li>
-							<li class="">
-								<a href="news.html" class="">Новини</a>
-							</li>
-							<li class="">
-								<a href="contacts.html" class="">Контакти</a>
-							</li>
+				<div class="header_middle">
+					<div class="header_center_row">
+						<h2>
+							Скребов Виталий
+						</h2>
+						<h1>
+							Web Designer & Developer <br>
+							WordPress Developer
+						</h1>
+						<hr>
+						<h3 class="first">
+							продуманный дизайн
+							<br>
+							адаптивная верстка
+						</h3>
 
-						</ul>
-					</nav>
+					</div>
 				</div>
 			</div>
-
-
 		</div>
-
-
+		<div class="left"></div>
+		<div class="right"></div>
 	</div>
-	<section class="advantages_top">
-		<div class="container-fluid">
+	<div class="coner_bottom"></div>
+	</div>
+	<section class="services">
+		<div class="container services_container">
 			<div class="row">
-				<div class="header grid">
-					<div class="container-xxl">
-						<div class="row">
-							<div class="headers grid">
-
-								<div class="top_header grid">
-									<h1 class="work_org">Виробник органічних доломітових добрив </h1>
-								</div>
-								<div class="number grid">
-									<h2 class="number">№1</h2>
-								</div>
-								<div class="header_text grid">
-									<p>Спроектували й побудували сучасну лінію з виробництва доломітових органічних добрив.</p>
-								</div>
-								<div class="button_header grid">
-									<a class="popup-modals" href="#test-modal">
-										<button class="button button_light">Зв'язатись</button>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<h2 class="services_inner" id="skills">
+					Услуги
+				</h2>
 			</div>
-		</div>
-	</section>
-	<section class="section-work ">
-		<div class="container-xxl">
-			<div class="main_work grid">
-				<div class="work flex">
-					<p><img src="images/check.svg" alt="">
-						Досвідченна команда
-					</p>
-					<img class="icons" src="images/peaple.svg" alt="" />
-
-				</div>
-				<div class="work flex">
-					<p><img src="images/check.svg" alt="">Надійне партнерство</p>
-					<img class="img-responsive" src="images/frends.svg" alt="" />
-
-				</div>
-				<div class="work flex">
-					<p><img src="images/check.svg" alt="">Якісний продукт</p>
-					<img class="img-responsive" src="images/star.svg" alt="" />
-
-				</div>
-				<div class="work flex">
-					<p><img src="images/check.svg" alt="">
-						Високі стандарти
-					</p>
-					<img class="img-responsive" src="images/details.svg" alt="" />
-
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="cards">
-		<div class="container-xxl">
 			<div class="row">
-				<h2 class="price">Наш асортимент </h2> 
-				<h4 class="details"><b>Презентація нашої продукції</b><a href="images/doc.pdf" download title="ПДФ файл" target="blank">
-				    <svg viewBox="0 0 512 512" width="21" height="21"><path fill="currentColor" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z" /></svg> Завантажте документ</a></h4>
-
-			
-
-				<div class="slider-card center">
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 1.png" class="img-responsive" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Доломітове борошно (пакування -  Біг-бег)</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>3100,00 грн</span> з ПДВ</p>
-
-								</div>
-								<a href="dolomite.html" class="button button_light">Детальніше</a>
-							</div>
+				<div class="col-md-6">
+					<div class="services_card_left cards">
+						<h3>
+							Написание сайтов
+						</h3>
+						<div class="services_cards">
+							<p>
+								<span class="card_first">
+									Сайт-визитка
+								</span> <br>
+								Идеально подойдет для презентации товара или бренда. Его можно указываать на визитках или в
+								социальных
+								сетях.
+							</p>
+							<p>
+								<span>
+									Одностраничный (Landing-page)
+								</span> <br>
+								Используется для презентации услуги или товара. Используется для сбора заявок, а также заказов.
+								Продвижение осщуествляется при помощи контекстной рекламы, а также таргетинга в социальных сетях.
+							</p>
+							<p>
+								<span>
+									Небольшой интернет-магазин
+								</span> <br>
+								Используется для реализации товаров или услуг. Применяется частными предпринимателями или
+								небольшими
+								компаниями.
+							</p>
 						</div>
-
-
-					</div>
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 2.png" class="img-responsive" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Доломітове борошно з леонардитом (40% + 60%)</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>6500,00 грн</span> з ПДВ</p>
-
-								</div>
-								<a href="leonard.html" class="button button_light">Детальніше</a>
-							</div>
-						</div>
-
-
-					</div>
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 2.png" class="img-responsive" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Доломітове борошно з леонардитом (10% + 90%)</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>4800,00 грн</span> з ПДВ</p>
-
-								</div>
-								<a href="leonard_two.html" class="button button_light">Детальніше</a>
-							</div>
-						</div>
-
-
-					</div>
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 3.png" class="img-responsive" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Доломіт гранульований</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>3500,00 грн</span> з ПДВ</p>
-
-								</div>
-								<a href="granulsdolomit.html" class="button button_light">Детальніше</a>
-							</div>
-						</div>
-
-
-					</div>
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 4.png" class="img-responsive" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Доломіт гранульований
-										з леонардитом</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>4900,00 грн</span> з ПДВ</p>
-
-								</div>
-								<a href="granuls.html" class="button button_light">Детальніше</a>
-							</div>
-						</div>
-
-
-					</div>
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 5.png" class="img-responsive" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Добриво леонардит
-										(гуматів 65%)</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>7500,00 грн</span> з ПДВ</p>
-
-								</div>
-								<a href="gumativ.html" class="button button_light">Детальніше</a>
-							</div>
-						</div>
-
-
-					</div>
-
-					<div class="slider__item dolomite filter">
-
-						<div class="card_vertical flex">
-							<div class="card flex">
-								<div class="image_card">
-									<img src="images/cards/dolomit 6.png" class="" alt="...">
-								</div>
-								<div class="text_card flex">
-									<h5 class="title-dolomite">Порошок МП1</h5>
-								</div>
-								<div class="card-texts flex">
-									<p>1т - <span>1600,00 грн</span> з ПДВ </p>
-								</div>
-								<a href="poroshokmp.html" class="button button_light">Детальніше</a>
-							</div>
-						</div>
-
 
 					</div>
 
 				</div>
-			</div>
-	</section>
+				<div class="col-md-6">
+					<div class="services_card_right cards">
+						<h3>
+							Дизайн
 
-	<section class="sliders cards_carusels">
-		<div class="container-xxl">
+						</h3>
+						<div class="services_cards">
+							<p>
+								<span>
+									Дизайн сайта
+								</span> <br>
+								Стоимость в каждом случае обсуждается отдельно. <br>
+								Дизайн сайта — это оформление контента, совокупность всех графических элементов на веб-странице. На
+								первый план выходит удобство пользователя, поэтому к задачам веб-дизайнера прибавились аналитика и
+								грамотное структурирование информации на сайте.
+								<br>
+								Способствует более лояльному отношению клиентов и
+								положительно влияет на увеличение продаж, а также узнаваемость бренда.
+								Чаще других используется лаконичный и сдержанный дизайн.
+							</p>
 
-			<!-- <div class="wrapper"> -->
-			<div class="slider center">
-				<div class="slider__item filter">
 
-					<img src="images/work/1.png" alt="">
+							<p>
+								<span>
+									Дизайн модуля
+								</span>
+								Это может быть отдельный блок на сайте или коммерческое предложение, которое необходимо выгодно
+								представить.
+								Продуманное визуальное оформление значительно повышает степень лояльности клиента и узнаваемость
+								бренда.
+							</p>
+
+
+						</div>
+					</div>
 
 				</div>
-
-				<div class="slider__item filter">
-					<img src="images/work/2.png" alt="">
-				</div>
-
-				<div class="slider__item filter">
-					<img src="images/work/3.png" alt="">
-				</div>
-
-				<div class="slider__item filter">
-					<img src="images/work/4.png" alt="">
-				</div>
-
-				<div class="slider__item filter">
-					<img src="images/work/5.png" alt="">
-				</div>
-
-				<div class="slider__item filter">
-					<img src="images/work/6.png" alt="">
-				</div>
-
-				<!-- </div> -->
 			</div>
 		</div>
-
+		<div class="coner_bottom"></div>
 	</section>
-	<section class="section-work_bottom ">
-		<div class="container-xxl">
-			<div class="main_work_bottom grid">
-				<div class="work work_bottom flex">
-					<p><img src="images/check.svg" alt="">
-						Досвідченна команда
+
+
+	<section class="about_me services">
+		<div class="container services_container">
+			<div class="about_me_inner">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="img_border">
+							<div class="img_corner">
+								<svg width="130" height="130" viewBox="0 0 124 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line y1="3.5" x2="123" y2="3.5" stroke="#D16100" stroke-width="7" />
+									<line x1="119.5" y1="128.989" x2="119.858" y2="5.98984" stroke="#D16100" stroke-width="7" />
+								</svg>
+								;
+							</div>
+							<img class="img-responsive " src="img/Myphoto.png" alt="">
+						</div>
+
+					</div>
+					<div class="col-md-7 ">
+						<div class="about_info">
+							<h2 id="about">
+								Детальная информация обо мне
+							</h2>
+							<p>
+								Меня зовут Скребов Виталий. Я Web-разработчик из Звенигородки, Украина, и я люблю свою работу. Имея
+								6-летний опыт работы в качестве web-разработчика и дизайнера, я приобрел навыки,необходимые для
+								создания
+								качественных и практичных веб-сайтов.
+							</p>
+							<p>
+								My name is Skrebov Vitalij. I'm a Freelance Full Stack Developer based in Zvenigorodka, Ukraina,
+								and I'm
+								very
+								passionate and dedicated to my work .With 6 years experience as a professional Full Stack
+								Developer, I
+								have acquired the skills necessary to build great and premium websites.
+							</p>
+						</div>
+
+						<div class="container ">
+							<div class="about_me_info">
+								<div class="row">
+									<div class="col-md-6">
+										<ul>
+											<li>
+												<span>имя</span>&nbsp &nbsp Скребов Виталий
+											</li>
+											<li>
+												<span>опыт</span>&nbsp 7 лет
+											</li>
+											<li><span>возраст </span> 50 лет</li>
+											<li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul>
+											<li>
+												<span>телеф&nbsp &nbsp &nbsp
+													<a href="tel:+380938181782">+38 093-818-17-82</a>
+												</span>
+											</li>
+											<li>
+											<span>telegram</span>&nbsp &nbsp <a target="_blank" href="https://t.me/+380 93 818 17 82">+380 93-818-17-82</a>
+											</li>
+											<li>
+												<span>viber</span>
+												&nbsp &nbsp &nbsp
+												<a target="_blank" href="viber://chat?number=+380938181782">+38 093-818-17-82</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 offset-md-1">
+						<div class="about_me_practics">
+							<h2 class="about_skills">
+								Мои скилы
+							</h2>
+							<div class="info_bar">
+								<h4>
+									HTML
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 95%" aria-valuenow="25"
+										aria-valuemin="0" aria-valuemax="100">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="info_bar">
+								<h4>
+									CSS
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 85%" aria-valuenow="25"
+										aria-valuemin="0" aria-valuemax="100">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="info_bar">
+								<h4>
+									Bootstrap
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 95%" aria-valuenow="25"
+										aria-valuemin="0" aria-valuemax="100">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="info_bar">
+								<h4>
+									Adobe Photoshop, XD, Figma, Illustrator
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 75%" aria-valuenow="25"
+										aria-valuemin="0" aria-valuemax="100">
+
+									</div>
+								</div>
+							</div>
+
+							<div class="info_bar">
+								<h4>
+									Git
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 75%" aria-valuenow="25"
+										aria-valuemin="0" aria-valuemax="100">
+									</div>
+								</div>
+							</div>
+
+
+							<div class="info_bar">
+								<h4>
+									JavaScript
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 35%" aria-valuenow="25"
+										aria-valuemin="35%" aria-valuemax="100">35% 35% 35% 35%
+									</div>
+								</div>
+							</div>
+
+							<div class="info_bar">
+								<h4>
+									WordPress
+								</h4>
+								<div class="progress" style="height: 30px;">
+
+									<div class="progress-bar bg-brown" role="progressbar" style="width: 75%" aria-valuenow="25"
+										aria-valuemin="0" aria-valuemax="100">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="coner_bottom"></div>
+	</section>
+	<section class="Benefits">
+		<div class="container services_container">
+
+			<div class="benefits_position">
+				<h2 class="benefits_details">
+					Преимущества
+				</h2>
+			</div>
+			<div class="benefits_cards">
+
+				<div class="benefits_item">
+					<img src="img/pencsil.svg" alt="">
+					<p>
+						Глубокий анализ
+						стиля и бренда. Изучение активности и стиля конкурентов, что позволяет понять особенности стиля
+						конкретной отрасли.
 					</p>
-					<img class="icons" src="images/peaple.svg" alt="" />
-
 				</div>
-				<div class="work work_bottom flex">
-					<p><img src="images/check.svg" alt="">Надійне партнерство</p>
-					<img class="img-responsive" src="images/frends.svg" alt="" />
-
-				</div>
-				<div class="work work_bottom flex">
-					<p><img src="images/check.svg" alt="">Якісний продукт</p>
-					<img class="img-responsive" src="images/star.svg" alt="" />
-
-				</div>
-				<div class="work work_bottom flex">
-					<p><img src="images/check.svg" alt="">
-						Високі стандарти
+				<div class="benefits_item">
+					<img src="img/design.svg" alt="">
+					<p>
+						Глубокий анализ
+						стиля и бренда. Изучение активности и стиля конкурентов, что позволяет понять особенности стиля
+						конкретной отрасли.
 					</p>
-					<img class="img-responsive" src="images/details.svg" alt="" />
-
 				</div>
+				<div class="benefits_item">
+					<img src="img/cod.svg" alt="">
+					<p>
+						Глубокий анализ
+						стиля и бренда. Изучение активности и стиля конкурентов, что позволяет понять особенности стиля
+						конкретной отрасли.
+					</p>
+				</div>
+
 			</div>
+
+		</div>
+		<div class="coner_bottom"></div>
+	</section>
+	<section class="portfolio_slider">
+		<div class="container services_container">
+			<h2 class="portfolio_info" id="portfolio">
+				Мои работы
+			</h2>
+			<div class="row">
+				<div class="portfolio_slider_gallery">
+					<div class="popup-gallery">
+						<a class="image-popup-no-margins" href="img/portfolio/zubber.png">
+							<img src="img/portfolio/zubber1.png" width="250px">
+						</a>
+						<a class="image-popup-no-margins" href="img/portfolio/garden-max.png">
+							<img src="img/portfolio/garden-max1.png" width="250px">
+						</a>
+
+						<a class="image-popup-no-margins" href="img/portfolio/portfolio.png">
+							<img src="img/portfolio/photo-portfoli1.png" width="250px">
+						</a>
+						<a class="image-popup-no-margins" href="img/portfolio/Happy pets.png">
+							<img src="img/portfolio/Happy our pets1.png" width="250px">
+						</a>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="portfolio_slider_gallery">
+					<div class="popup-gallery">
+
+						<a class="image-popup-no-margins" href="img/portfolio/zubber.png"><img src="img/portfolio/zubber1.png"
+								width="250px">
+						</a>
+
+						<a class="image-popup-no-margins" href="img/portfolio/garden-max.png"><img
+								src="img/portfolio/garden-max1.png" width="250px">
+						</a>
+
+						<a class="image-popup-no-margins" href="img/portfolio/portfolio.png"><img
+								src="img/portfolio/photo-portfoli1.png" width="250px">
+						</a>
+
+						<a class="image-popup-no-margins" href="img/portfolio/Happy pets.png"><img
+								src="img/portfolio/Happy our pets1.png" width="250px">
+						</a>
+
+					</div>
+				</div>
+
+			</div>
+
+
 		</div>
 	</section>
-	<section class="sliders-documents">
-		<div class="container-xxl">
-			<h2 class="qualiti">Знак якості</h2>
-			<div class="documents grid">
-				<div class="slider__item filter">
-					<a class="image-popup-no-margins" href="images/doc/doc1.png">
-						<img src="images/doc/doc1.png" alt="">
-					</a>
-				</div>
 
-				<div class="slider__item filter">
-					<a class="image-popup-no-margins" href="images/doc/doc2.png">
-						<img src="images/doc/doc2.png" alt="">
-					</a>
-				</div>
+	<section class="contacts">
+		<div class="container services_container">
+			<div class="contacts_items">
+				<h2 class="contacts_info" id="contacts">
+					КОНТАКТЫ
+				</h2>
+				<p>	Если у вас есть какие-либо вопросы, предложения или вы хотите обсудить проект, пожалуйста, не
+								стесняйтесь
+								связываться со мной по телефону, электронной почте или через социальные сети.
+							</p>
+								<p>
+								Я всегда рад помочь и ответить на ваши вопросы. Спасибо за интерес к моим услугам!
+							</p>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="contacts_info">
 
-				<div class="slider__item filter">
-					<a class="image-popup-no-margins" href="images/doc/doc3.png">
-						<img src="images/doc/doc3.png" alt="">
-					</a>
-				</div>
-
-				<div class="slider__item filter">
-					<a class="image-popup-no-margins" href="images/doc/doc4.png">
-						<img src="images/doc/doc4.png" alt="">
-					</a>
-				</div>
-			</div>
-		</div>
-
-	</section>
-
-	<!--FOOTER-->
-	<footer class="footer">
-		<div class="container-xxl ">
-
-			<div class="main_footer grid">
-
-				<div class="footer_logo flex">
-					<div class="logo_item">
-						<a href="index.html"><img src="images/Logo_footer.svg" class="logo image" alt="" /></a>
-					</div>
-				</div>
-				<div class="footer_menu flex">
-					<div class="logo_item flex">
-						<ul>
-							<li><a href="index.html">Головна</a></li>
-							<li><a href="products.html">Продукція</a></li>
-							<li><a href="about.html">Про Нас</a></li>
-						</ul>
-						<ul>
-							<li><a href="news.html">Новини</a></li>
-							<li><a href="contacts.html">Контакти</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="footer_tel flex">
-					<div class="logo_item coordination">
-						<img src="images/teleph.svg" alt="">&nbsp &nbsp
-						<a href="tel:+380675585101">+380675585101;</a> &nbsp
-						<a href="tel:+380503110184">+380503110184</a>
-					</div>
-					<div class="logo_item">
-						<img src="images/mail.svg" alt="">&nbsp &nbsp<a href="mailto:tovstv2020@gmail.com">
-							tovstv2020@gmail.com</a>
-					</div>
-
-				</div>
-				<div class="footer_map flex">
-					<div class="logo_item">
-						<div class="footer_adress flex">
-							<img src="images/map-pin.svg" alt="">
-							<p>6334, Кіровоградська область, Голованівський район, смт Завалля, вул Калініна, 76</p>
-
+							
+						<div class="container wrapper_contacts">
+							<form action="https://formspree.io/f/xrbkzqrw" method="POST">
+								<div class="form-group">
+									<label for="name">Ваше имя</label>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Введите ваше имя" required>
+								</div>
+								<div class="form-group">
+									<label for="email">Ваш email</label>
+									<input type="email" class="form-control" id="email" name="_replyto" placeholder="Введите ваш email"
+										required>
+								</div>
+								<div class="form-group">
+									<label for="message">Сообщение</label>
+									<textarea class="form-control" id="message" name="message"
+										placeholder="Введите ваше сообщение"></textarea>
+								</div>
+								<button type="submit" class="btn btn-primary">Отправить</button>
+								<!-- <a href="viber://chat?number=+380938181782"></a>
+								<img src="img/viber_logo.png" class="img-responsive viber alt=" Viber">
+								</a>
+								<a href="tel:+380938181782" class="img-responsive tel">
+									<img src="img/phone_logo.png" alt="Телефон"> -->
 						</div>
+
+
 					</div>
+					<!-- <div class="col-md-4">
+						<h3>
+							Место проживания
+							<span>
+								Звенигородка
+							</span>
+						</h3>
+
+						<h3>
+							Место проживания
+							<span>
+								Звенигородка
+							</span>
+						</h3>
+
+						<h3>
+							Место проживания
+							<span>
+								Звенигородка
+							</span>
+						</h3>
+					</div> -->
 				</div>
 			</div>
-		</div>
+	</section>
+	<footer>
+		<div class="container footer">
+			<div class="footers">
+				<div class="footers_logo">
+					<a href="">
+						<img src="img/logo.png" alt="">
+					</a>
+					<p>
+						All Right Reserved © 2020 Скребов Виталий
+					</p>
+				</div>
 
+			</div>
+		</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
 
-
-	<style>
-		/* reset */
-	</style>
-	<div class="hidden">
-
-
-		<div id="test-modal" class="mfp-hide white-popup-block">
-
-			<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqkorgrp"
-				method="post">
-				<h3 class="forms_text">Форма зворотнього зв’язку</h3>
-				<fieldset id="fs-frm-inputs">
-					<input type="text" name="ім'я" id="full-name" placeholder="ПІБ" required="">
-					<input type="email" name="пошта" id="email-address" placeholder="E- mail" required="">
-					<input type="telephone" name="телефон" id="telephone" placeholder="Телефон">
-					<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-				</fieldset>
-				<div class="button-wrap grid">
-					<button class="button" type="submit">Зв'язатись</button>
-				</div>
-
-			</form>
-			<!--		<form class="forms grid" id="callback">-->
-
-			<!--			<h3>Форма зворотнього зв'язку</h3>-->
-
-			<!--			<label>-->
-			<!--				<input type="text"-->
-			<!--				       name="name"-->
-			<!--				       placeholder="ПІБ"-->
-			<!--				       required>-->
-			<!--			</label>-->
-
-			<!--			<label>-->
-			<!--				<input type="text"-->
-			<!--				       name="phone"-->
-			<!--				       placeholder="Телефон"-->
-			<!--				       required>-->
-			<!--			</label>-->
-			<!--			<label>-->
-			<!--				<input type="text"-->
-			<!--				       name="email"-->
-			<!--				       placeholder="E-mail">-->
-			<!--			</label>-->
-
-			<!--			<div class="button-wrap grid">-->
-			<!--				<a href=""-->
-			<!--				   class="button" type="submit">Зв'язатись</a>-->
-			<!--			</div>-->
-
-			<!--			<input type="hidden"-->
-			<!--			       name="formname"-->
-			<!--			       value="">-->
-
-			<!--		</form>-->
-		</div>
-
-	</div>
 
 
 </body>
